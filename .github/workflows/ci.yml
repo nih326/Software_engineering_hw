@@ -1,29 +1,22 @@
-name: Run tests and upload coverage
-
-on: 
-  push
-
+name: Workflow for Codecov example-python
+on: [push, pull_request]
 jobs:
-  test:
-    name: Run tests and collect coverage
+  run:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Set up Python
+      - name: Set up Python 3.10
         uses: actions/setup-python@v4
-
+        with:
+          python-version: '3.10'
       - name: Install dependencies
-        run: pip install pytest pytest-cov
-
-      - name: Run tests
-        run: pytest --cov
-
-      - name: Upload results to Codecov
+        run: pip install -r requirements.txt
+      - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4
         with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          slug: nih326/helloworld
+          verbose: true
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
