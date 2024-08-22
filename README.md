@@ -6,4 +6,4 @@
 
 ![example workflow](https://github.com/nih326/helloworld/actions/workflows/python-tests.yml/badge.svg)
 
-![codecov](https://codecov.io/gh/yourusername/yourrepository/branch/main/graph/badge.svg)
+![codecov](https://codecov.io/gh/nih326/helloworld/branch/master/graph/badge.svg)
