@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - master  # Or your default branch
+      - main
   pull_request:
     branches:
-      - master  # Or your default branch
+      - main
 
 jobs:
   build:
@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
-          python-version: '3.11'  # Specify your Python version
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
@@ -30,11 +30,14 @@ jobs:
       - name: Run tests with coverage
         run: |
           coverage run -m pytest
-          coverage xml  # Generate coverage report
+          coverage xml
+
+      - name: List files
+        run: ls -la
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4
         with:
           files: coverage.xml
-          token: ${{ secrets.CODECOV_TOKEN }}  # Ensure you have added this secret
+          token: ${{ secrets.CODECOV_TOKEN }}
           fail_ci_if_error: true
