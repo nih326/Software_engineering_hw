@@ -11,5 +11,8 @@
 [![codecov](https://codecov.io/github/nih326/helloworld/graph/badge.svg?token=YHGLILYFYR)](https://codecov.io/github/nih326/helloworld)
 
 
++ [![cov](https://we-cli.github.io/jayin/badges/coverage.svg)](https://github.com/we-cli/jayin/actions)
+
+
 
 + [![cov](https://nih326-cli.github.io/helloworld/badges/coverage.svg)](https://github.com/nih326-cli/helloworld/actions)
