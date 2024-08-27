@@ -15,4 +15,4 @@
 
 
 
-+ [![cov](https://nih326-cli.github.io/helloworld/badges/coverage.svg)](https://github.com/nih326-cli/helloworld/actions)
++ [![cov](https://nih326.github.io/helloworld/badges/coverage.svg)](https://github.com/nih326/helloworld/actions)
