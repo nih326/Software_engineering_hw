@@ -9,3 +9,7 @@
 ![codecov](https://codecov.io/gh/nih326/helloworld/branch/master/graph/badge.svg)
 
 [![codecov](https://codecov.io/github/nih326/helloworld/graph/badge.svg?token=YHGLILYFYR)](https://codecov.io/github/nih326/helloworld)
+
+
+
++ [![cov](https://nih326-cli.github.io/helloworld/badges/coverage.svg)](https://github.com/nih326-cli/helloworld/actions)
