@@ -6,10 +6,8 @@
 
 ![example workflow](https://github.com/nih326/helloworld/actions/workflows/python-tests.yml/badge.svg)
 
-![codecov](https://codecov.io/gh/nih326/helloworld/branch/master/graph/badge.svg)
+![Autopep8](https://img.shields.io/badge/autopep8-formatted-brightgreen)
 
-[![codecov](https://codecov.io/github/nih326/helloworld/graph/badge.svg?token=YHGLILYFYR)](https://codecov.io/github/nih326/helloworld)
+![Pylint](https://img.shields.io/badge/pylint-check-success)
 
-
-
-[![cov](https://nih326.github.io/helloworld/badges/coverage.svg)](https://github.com/nih326/helloworld/actions)
+![Pyflakes](https://img.shields.io/badge/pyflakes-check-success)
