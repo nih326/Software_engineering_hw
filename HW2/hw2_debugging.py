@@ -1,3 +1,7 @@
+"""
+This module implements the merge sort algorithm.
+It includes functions to recursively sort an array and merge two sorted arrays.
+"""
 import rand
 
 def merge_sort(array):
