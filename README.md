@@ -11,3 +11,5 @@
 ![Pylint](https://img.shields.io/badge/pylint-check-success)
 
 ![Pyflakes](https://img.shields.io/badge/pyflakes-check-success)
+
+![Python Tests](https://github.com/<your-username>/<your-repo>/actions/workflows/python-tests.yml/badge.svg)
