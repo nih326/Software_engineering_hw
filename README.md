@@ -12,4 +12,4 @@
 
 ![Pyflakes](https://img.shields.io/badge/pyflakes-check-success)
 
-![Python Tests](https://github.com/nih326/helloworld/actions/workflows/merge-test.yml/badge.svg)
+![Python Tests](https://github.com/nih326/helloworld/actions/workflows/merge_test.yml/badge.svg)
